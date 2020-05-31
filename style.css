@@ -1,0 +1,181 @@
+* {
+margin: 0;
+Padding: 0;
+}
+
+/* body voor home pagina */
+body {
+  padding: 15%;
+  background-color: #ff6b81;
+  color: white;
+  font-family: Merriweather;
+}
+
+nav {
+  font-family: poppins;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 4rem;
+  max-width: 30rem;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+  color:rgb(60,60,60);
+}
+
+nav a {
+  text-decoration:none;
+  color: white;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+ /* css voor learning outcome 1 */
+/* body learning outcomes & about */
+.bodylo1 {
+  background-color: white;
+  padding: 4%;
+}
+/* add other color to font */
+.h1lo1 {
+  font-family: Lato;
+  Text-transform: uppercase;
+  color: #ffbf00;
+  font-weight: 400;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.h2lo1 {
+  color: #b8d3d2;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  max-width: none;
+  font-style: italic;
+}
+
+.h1lo2 {
+  font-weight: 400;
+  font-size: 3.4rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+/* add new font for p */
+
+p {
+margin-bottom: 1.5rem;
+color: rgb(60,60,60);
+font-family: lato;
+font-weight: 300;
+letter-spacing: 1.2px;
+font-size: 0.9rem;
+}
+
+.bg-image {
+background-image: url('images/esmee1.jpg');
+Background-color: #eacccc;
+background-size: cover;
+background-position: 13% 87%;
+padding-bottom: 47%;
+}
+
+/* color of navigation balk */
+.links {
+  color: #b8d3d2;
+  border-bottom: 1px solid;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0px;
+}
+
+.links:hover {
+  color: #6e7e7e;
+}
+
+.bg-average {
+background-image: url('images/average-excel.jpg');
+background-size: cover;
+Background-color: #eacccc;
+padding-bottom: 30%;
+background-position: 90% 10%;
+margin-bottom: 1.5rem;
+}
+
+.bg-1 {
+  background-image: url('images/excel3.jpg');
+  Background-color: #eacccc;
+  background-size: cover;
+  padding-bottom: 40%;
+  background-position: 90% 10%;
+}
+
+.middlep {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+ul {
+  margin-bottom: 1.5rem;
+  color: rgb(60,60,60);
+  font-family: Lato;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+ol {
+  margin-bottom: 1.5rem;
+  color: rgb(60,60,60);
+  font-family: Lato;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+
+}
+
+.geenruimte {
+    margin-bottom: 0.5rem;
+}
+
+.pzwart {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.bg-feedback {
+  background-image: url('images/feedback-poster.jpg');
+  Background-color: #eacccc;
+  background-size: cover;
+  padding-bottom: 60%;
+}
+
+.justheaders {
+  margin-bottom: 0.7rem;
+  color: rgb(60,60,60);
+  font-family: Lato;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+
+}
